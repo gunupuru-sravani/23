@@ -1,0 +1,111 @@
+SQL> connect
+Enter user-name: system
+Enter password:
+Connected.
+SQL> create table employee(empno number(5),empname varchar2(10),empdesig varchar2(50),empsal int);
+
+Table created.
+
+SQL> insert into employee values(1,'chaithu','labassistant',15000);
+
+1 row created.
+
+SQL> insert into employee values(2,'jaya','manager',20000);
+
+1 row created.
+
+SQL> insert into employee values(3,'raji','dental',30000);
+
+1 row created.
+
+SQL> insert into employee values(4,'sandy','teacher',17000);
+
+1 row created.
+
+SQL> insert into employee values(5,'anu','human recruiter',25000);
+
+1 row created.
+
+SQL> insert into employee values(6,'ashi','charter accounter',50000);
+
+1 row created.
+
+SQL> insert into employee values(7,'babblu','engineer',26000);
+
+1 row created.
+
+SQL> insert into employee values(8,'chinnu','doctor',30000);
+
+1 row created.
+
+SQL> insert into employee values(9,'swetha','layer',35000);
+
+1 row created.
+
+SQL> insert into employee values(10,'meghana','lecturer',25000);
+
+1 row created.
+
+SQL> select * from employee;
+
+     EMPNO EMPNAME    EMPDESIG
+---------- ---------- --------------------------------------------------
+    EMPSAL
+----------
+         1 chaithu    labassistant
+     15000
+
+         2 jaya       manager
+     20000
+
+         3 raji       dental
+     30000
+
+
+     EMPNO EMPNAME    EMPDESIG
+---------- ---------- --------------------------------------------------
+    EMPSAL
+----------
+         4 sandy      teacher
+     17000
+
+         5 anu        human recruiter
+     25000
+
+         6 ashi       charter accounter
+     50000
+
+
+     EMPNO EMPNAME    EMPDESIG
+---------- ---------- --------------------------------------------------
+    EMPSAL
+----------
+         7 babblu     engineer
+     26000
+
+         8 chinnu     doctor
+     30000
+
+         9 swetha     layer
+     35000
+
+
+     EMPNO EMPNAME    EMPDESIG
+---------- ---------- --------------------------------------------------
+    EMPSAL
+----------
+        10 meghana    lecturer
+     25000
+
+
+10 rows selected.
+
+SQL> commit;
+
+Commit complete.
+
+SQL>
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Secu
